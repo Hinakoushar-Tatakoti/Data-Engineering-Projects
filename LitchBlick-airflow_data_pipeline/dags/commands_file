@@ -1,0 +1,5 @@
+## Execute the airflow on docker 
+docker compose up
+docker compose run airflow-worker airflow info
+docker compose up airflow-init
+
